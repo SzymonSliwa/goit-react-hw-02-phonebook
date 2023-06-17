@@ -13,3 +13,56 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lavender;
+}
+
+.section_title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.formfield {
+  border: solid black;
+  width: 300px;
+  height: 260px;
+  background-color: white;
+  padding-left: 10px;
+}
+
+.title {
+  font-weight: 450;
+}
+
+.input {
+  display: block;
+}
+
+input:focus {
+  border: 2px solid #586ad4;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 5px rgba(11, 28, 189, 0.75);
+  -moz-box-shadow: 0px 0px 5px rgba(17, 14, 212, 0.75);
+  box-shadow: 0px 0px 5px rgba(29, 9, 209, 0.75);
+  outline: none;
+}
+
+.button {
+  margin-top: 30px;
+}
+
+.contact {
+  display: inline;
+  padding-right: 10px;
+}
+
+.contactItem {
+  padding-block: 5px;
+}
